@@ -1,0 +1,74 @@
+.playbar{
+
+    position: absolute;
+    /* background-color: #1ed760; */
+    width: 75vw;
+    padding: 7px ;
+    margin: 20px 22px;
+    border-radius: 40px;
+    bottom: 0px;
+}
+.controlparent{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.controls {
+    bottom: 1px;
+    left: 45%;
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 33%;
+}
+.controls img{
+    height: 30px;
+    cursor: pointer;
+}
+.controls :nth-child(2){
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.seekbar{
+    z-index: 3;
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    border: 2px solid #1ed760;
+    border-radius: 4px;
+    bottom: 50px;
+    cursor: pointer;
+}
+.circle{
+    position: absolute;
+    /* z-index: 10; */
+    bottom: 45px;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #1ed760;
+    border: 2px solid black;
+    transition: left 0.4s;
+    cursor: pointer;
+    
+}
+
+.songtime{
+    /* position: absolute; */
+    right: 0;
+    text-align: center;
+    align-self: center;
+    width: 33%;
+}
+.songname{
+    /* position: absolute; */
+    bottom: 10px;
+    text-align: center;
+    align-self: center;
+    left: 20px;
+    width: 33%;
+}

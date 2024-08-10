@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="logo.css">
+    <link rel="stylesheet" href="left.css">
+    <link rel="stylesheet" href="right.css">
+    <link rel="stylesheet" href="playbar.css">
+    <link rel="stylesheet" href="library.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="left bg flex">
+            <div class="left-box flex left-upper"><ul>
+                    <div class="flex crossparent"><li class="home-item"><img class="spotify-logo" src="logos\logo.svg" alt="logo"></li>
+                    <img src="logos/cross.svg" alt="" class="cross"></div>
+                    <li class="home-item"><img class="home-logo" src="logos\home.svg" alt="home"><p>Home</p></li>
+                    <li class="home-item"><img class="search-logo" src="logos\search.svg" alt="search"><p>Search</p></li>
+                </ul>
+            </div>
+
+
+            <div class="left-box library-box">
+                <header class="flex"><img src="logos\library.svg" alt="library" class="library-logo">
+                    <p>Your Library</p>
+                    <img src="logos\plus.svg" alt="plus" class="plus-logo">
+                </header>
+
+
+                <div class="songlist">
+                    <ul></ul>
+                </div>
+
+
+
+                <div class="left-footer">
+                    <a href="https://www.spotify.com/in-en/legal/"><div>Legal</div></a>
+                    <a href="https://www.spotify.com/in-en/privacy/"><div>Privacy Center</div></a>
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/"><div>Privacy Policy</div></a>
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><div>About Ads</div></a>
+                    <a href="https://www.spotify.com/in-en/accessibility/"><div>Accessibility</div></a>
+                    <a href="https://www.spotify.com/legal/cookies-policy/" target="_blank" rel="noopener"><div>Cookies</div></a>
+                    <button><img src="logos/globe.svg" alt="" class="globe-logo"><b>English</b></button>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <div class="right">
+            <header>
+                <div class="arrows flex">
+                    <img src="logos/hamburger.svg" alt="" class="hamburger">
+                    <button class="left-arrow"><img src="logos/leftarrow.svg" alt="leftarrow"></button>
+                    <button class="right-arrow"><img src="logos/rightarrow.svg" alt="rightarrow"></button>
+                </div>
+
+
+                <div class="header-button">
+                    <div class="sign-up"><button>Sign up</button></div>
+                    <div class="log-in"><button>Log-in</button></div>
+                </div>
+            </header>
+            <div class="spotifyplaylist">
+
+
+                <h6>Spotify Playlists</h6>
+
+
+                <div class="cardcontainer">
+                    <div class="card"><div class="play"><img src="logos/play-button-svgrepo-com.svg" alt=""></div><img src="https://i.scdn.co/image/ab67706f000000026d7b14f72609c7f5fdf07d4a"><div class="description"><h3>Todays top hit</h3><p>Jack harlow is in top of hot 50.</p></div></div>
+                    <div class="card"><div class="play"><img src="logos/play-button-svgrepo-com.svg" alt=""></div><img src="https://i.scdn.co/image/ab67706f00000002d771dc645afe9b87978b1d3e"><div class="description"><h3>jj</h3><p>Lorem, ipsum.</p></div></div>
+                    <div class="card"><div class="play"><img src="logos/play-button-svgrepo-com.svg" alt=""></div><img src="https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037"><div class="description"><h3>jj</h3><p>Lorem, ipsum.</p></div></div>
+                    <div class="card"><div class="play"><img src="logos/play-button-svgrepo-com.svg" alt=""></div><img src="https://i.scdn.co/image/ab67706f00000002dec17246891b5b4eb97bdb0d"><div class="description"><h3>jj</h3><p>Lorem, ipsum.</p></div></div>
+                    <div class="card"><div class="play"><img src="logos/play-button-svgrepo-com.svg" alt=""></div><img src="https://i.scdn.co/image/ab67706f00000002f4d83a6cb7f51f6d9f6717de"><div class="description"><h3>jj</h3><p>Lorem, ipsum.</p></div></div>
+                    
+                    </div>
+                </div>
+                
+                <div class="playbar flex">
+                    <div class="songinfo"></div>
+                    <div class="seekbar"></div>
+                    <div class="circle"></div>
+                <div class="controlparent">
+                    <div class="songname"></div>
+                    <div class="controls">
+                        <img id="prev" src="logos/presong.svg" alt="pre" >
+                        <img id="play" src="logos/play-button-svgrepo-com.svg" alt="Play">
+                        <img id="next" src="logos/nextsong.svg" alt="next" >
+                    </div>
+                    <div class="songtime"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- <footer class="main-footer">
+            <div class="footer-font">Preview of Spotify</div>
+            <div class="footer-font">Sign up to get unlimited songs and poscasts with occational ads. No credit card needed. </div>
+            <div><button><b>Sign Up Free</b></button></div>
+        </footer> -->
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

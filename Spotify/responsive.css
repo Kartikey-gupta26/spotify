@@ -1,0 +1,54 @@
+.hamburger{
+    display: none;
+    filter: invert(1);
+}
+
+@media (max-width : 1300px){
+    .left{
+        position: absolute;
+        left: -110%;
+        z-index: 5;
+        transition: all 0.3s ease;
+    }
+    .right{
+        grid-column: 1/3;
+        width: 99vw;
+        height: 99vh;
+    }
+    .cardcontainer{
+        justify-content: space-evenly;
+    }
+    .card{
+        width: 50vw;
+    }
+    .playbar{
+        width: 80vw;
+        position: absolute;
+        border-radius: 40px;
+        bottom: 10px;
+    }.controlparent{
+        position: absolute;
+        bottom: 0px;
+    }
+    .controls{
+        /* position: absolute; */
+        bottom: 0px;
+
+    }
+    .seekbar{
+        bottom: 40px;
+    }
+    .circle{
+        bottom: 35px;
+    }
+    .hamburger{
+        display: block;
+        filter: invert(1);
+        height: 40px;
+    }
+    .cross{
+        display: block;
+        filter: invert(1);
+    }
+    
+}

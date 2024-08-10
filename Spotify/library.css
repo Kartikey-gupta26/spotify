@@ -1,0 +1,53 @@
+.library-box{
+    margin-top: 5px;
+    height: 100%;
+    position: relative;
+}
+
+.library-box header{
+    margin: 15px 20px;
+
+    height: 7.5%;
+    align-items: center;
+}
+.library-box header p{
+    font-size: 13px;
+    margin-top: 4px;
+    margin-left: 13px;
+    font-weight: 1000;
+}
+
+.songlist{
+    overflow: hidden;
+    max-height: 49vh;
+    overflow-y: scroll;
+}
+.songlist ul{
+    margin: 15px 14px;
+}
+
+
+.songlist ul li{
+    padding: 15px 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    cursor: pointer;
+    border: 1px solid #1ed760;
+    margin: 7px 0;
+    border-radius: 7px;
+    transition: transform 0.3s ease-out;
+}
+.songlist ul li:hover{
+    transform: scale(1.1);
+}
+
+
+.songlist ul li >img{
+    padding-left: 15px ;
+    padding-right: 15px;
+}
+
+.info div{ 
+    text-align: center;
+}

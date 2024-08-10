@@ -1,0 +1,12 @@
+<svg fill="#1ed760" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 408.221 408.221" xml:space="preserve">
+  <g>
+    <g>
+      <!-- Path for the circular background -->
+      <circle cx="204.11" cy="204.111" r="204.11" fill="#1ed760" />
+
+      <!-- Path for the play button -->
+      <path d="M286.547,229.971l-126.368,72.471c-17.003,9.75-30.781,1.763-30.781-17.834V140.012c0-19.602,13.777-27.575,30.781-17.827l126.368,72.466C303.551,204.403,303.551,220.217,286.547,229.971z" fill="#000000" />
+    </g>
+  </g>
+</svg>
+

@@ -1,0 +1,54 @@
+.spotify-logo{
+    height: 23px;
+    width: 90px;
+    margin-left: -11px ;
+    margin-top: -9px ;
+    filter: invert(1);
+}
+.home-logo{
+    height: 22px;
+    width: auto;
+    margin-top: 8px;
+    margin-left: -4px ;
+    filter: invert(1);
+}
+.search-logo{
+    height: 22px;
+    width: auto;
+    margin-top: 11px;
+    margin-left: -4px ;
+    filter: invert(1);
+    
+}
+.library-box .library-logo{
+    filter: invert(1);
+    height: 22px;
+    width: auto;
+    margin-left: 3px;
+    margin-top: 3px;
+    
+}
+.library-box .plus-logo{
+    filter: invert(1);
+    height: 14px;
+    /* width: 14px; */
+    margin-left: auto;
+    margin-top: 6px;
+    margin-right: 9px;
+}
+.globe-logo{
+    filter: invert(1);
+    height: 15px;
+}
+.play img{
+    height: 40px;
+    opacity: 0;
+}
+
+.cross{
+    display: none;
+    filter: invert(1);
+}
+
+
+
